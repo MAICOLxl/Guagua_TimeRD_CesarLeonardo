@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GuaguaTimeRD</title>
+  <link rel="stylesheet" href="funciones/estilos/estilos.css">
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="hero-contenido">
+        <h1>Encuentra tu parada mas cercana</h1>
+        <p>Escribe a donde vas, permite tu ubicacion y la app te dira cual estacion te queda mas cerca para empezar tu ruta.</p>
+
+        <div class="panel">
+          <label for="destino">A donde te diriges?</label>
+          <input id="destino" type="text" placeholder="Ejemplo: Agora Mall, Santo Domingo">
+
+          <div class="acciones">
+            <button id="btnBuscar" class="btn-principal" type="button">Buscar mejor parada</button>
+            <button id="btnUbicacion" class="btn-secundario" type="button">Actualizar ubicacion</button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-lateral">
+        <h2>Como funciona</h2>
+        <ul>
+          <li>Se cargan tus paradas desde `paradas.json`.</li>
+          <li>Se usa la ubicacion actual del usuario.</li>
+          <li>Se calcula cual parada esta a menor distancia.</li>
+          <li>Se muestra el destino dentro de Google Maps en la pagina.</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="hero">
+      <div class="hero-contenido">
+        <div class="panel resultado" id="resultado">
+          <div class="estado" id="estado">Esperando ubicacion del usuario...</div>
+          <h2>Resultado</h2>
+          <p id="mensajeResultado">Todavia no se ha calculado una parada cercana.</p>
+          <div class="acciones oculto" id="accionesRuta">
+            <a id="rutaParada" class="boton-link btn-principal" href="#" target="_blank" rel="noopener noreferrer">Ir a la parada</a>
+            <a id="rutaCompleta" class="boton-link btn-secundario" href="#" target="_blank" rel="noopener noreferrer">Ver ruta completa</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-contenido">
+        <div class="panel">
+          <h2>Paradas cargadas</h2>
+          <p id="listaParadas">Cargando datos...</p>
+          <p>El listado se muestra en el orden del recorrido de la guagua.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mapa-card">
+      <div id="mapaDestino" aria-label="Mapa del destino"></div>
+    </section>
+  </main>
+
+  <script src="funciones/paradas.js"></script>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDosDKE2DwGu4fCFxams6tHBWM8q9o2tjc&libraries=places&callback=initMap"></script>
+</body>
+</html>

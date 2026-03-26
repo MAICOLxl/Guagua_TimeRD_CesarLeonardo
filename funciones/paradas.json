@@ -1,0 +1,65 @@
+{
+    "Paradas": [
+        {
+            "id": 1,
+            "orden": 1,
+            "nombre": "Sede",
+            "x": "18.61305",
+            "y": -69.85695
+        },
+        {
+            "id": 2,
+            "orden": 2,
+            "nombre": "Victoria",
+            "x": "18.59008",
+            "y":  -69.84576
+        },
+        {
+            "id": 3,
+            "orden": 3,
+            "nombre": "Teleferico Charles",
+            "x": "18.54318",
+            "y": -69.86021
+        },
+
+        {
+            "id": 4,
+            "orden": 4,
+            "nombre": "Rosa Duarte",
+            "x": "18.51028",
+            "y": -69.8698
+        },
+
+        {
+            "id": 5,
+            "orden": 5,
+            "nombre": "Mercado La Zurza",
+            "x": "18.50583",
+            "y": -69.91217
+        },
+
+        {
+            "id": 6,
+            "orden": 6,
+            "nombre": "Entrada Guaricano",
+            "x": "18.52505",
+            "y": -69.91634
+        },
+
+        {
+            "id": 7,
+            "orden": 7,
+            "nombre": "Colina Centro",
+            "x": "18.55516",
+            "y": -69.94394
+        },
+
+        {
+            "id": 8,
+            "orden": 8,
+            "nombre": "Entrada Villa Mella",
+            "x": "18.57493",
+            "y": -69.98056
+        }
+    ]
+}

@@ -60,7 +60,11 @@ async function cargarParadas() {
     tiempoMinutos: Number(tramo.tiempoMinutos || tramo.tiempoLlegada || 0),
   }));
 
-  listaParadas.textContent = paradas.map((parada) => parada.nombre).join(" -> ");
+  const nombresParadas = paradas.map((parada) => parada.nombre);
+  const primeraParada = paradas[0]?.nombre;
+  listaParadas.textContent = primeraParada
+    ? `${nombresParadas.join(" -> ")} -> ${primeraParada}`
+    : nombresParadas.join(" -> ");
   llenarSelectParadas();
 }
 

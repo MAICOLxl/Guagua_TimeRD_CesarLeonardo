@@ -57,9 +57,317 @@
         {
             "id": 8,
             "orden": 8,
-            "nombre": "Entrada Villa Mella",
+            "nombre": "Aeropuerto el Higuero",
             "x": "18.57493",
             "y": -69.98056
         }
+    ],
+
+    "Guaguas": [
+        {
+            "id": 1,
+            "nombre": "Guagua 1",
+            "capacidad": 55,
+            "pasajeros": 38,
+            "paradaActualId": 1,
+            "siguienteParadaId": 2,
+            "progresoTramo": 0
+        },
+
+        {
+            "id": 2,
+            "nombre": "Guagua 2",
+            "capacidad": 55,
+            "pasajeros": 10,
+            "paradaActualId": 1,
+            "siguienteParadaId": 2,
+            "progresoTramo": 0.348
+        },
+        
+        {
+            "id": 3,
+            "nombre": "Guagua 3",
+            "capacidad": 55,
+            "pasajeros": 43,
+            "paradaActualId": 1,
+            "siguienteParadaId": 2,
+            "progresoTramo": 0.696
+        },
+
+        {
+            "id": 4,
+            "nombre": "Guagua 4",
+            "capacidad": 55,
+            "pasajeros": 20,
+            "paradaActualId": 2,
+            "siguienteParadaId": 3,
+            "progresoTramo": 0.043
+        },
+
+        {
+            "id": 5,
+            "nombre": "Guagua 5",
+            "capacidad": 55,
+            "pasajeros": 15,
+            "paradaActualId": 2,
+            "siguienteParadaId": 3,
+            "progresoTramo": 0.391
+        },
+
+        {
+            "id": 6,
+            "nombre": "Guagua 6",
+            "capacidad": 55,
+            "pasajeros": 50,
+            "paradaActualId": 2,
+            "siguienteParadaId": 3,
+            "progresoTramo": 0.739
+        },
+
+        {
+            "id": 7,
+            "nombre": "Guagua 7",
+            "capacidad": 55,
+            "pasajeros": 30,
+            "paradaActualId": 3,
+            "siguienteParadaId": 4,
+            "progresoTramo": 0.087
+        },
+
+        {
+            "id": 8,
+            "nombre": "Guagua 8",
+            "capacidad": 55,
+            "pasajeros": 25,
+            "paradaActualId": 3,
+            "siguienteParadaId": 4,
+            "progresoTramo": 0.435
+        },
+
+        {
+            "id": 9,
+            "nombre": "Guagua 9",
+            "capacidad": 55,
+            "pasajeros": 40,
+            "paradaActualId": 3,
+            "siguienteParadaId": 4,
+            "progresoTramo": 0.783
+        },
+
+        {
+            "id": 10,
+            "nombre": "Guagua 10",
+            "capacidad": 55,
+            "pasajeros": 45,
+            "paradaActualId": 4,
+            "siguienteParadaId": 5,
+            "progresoTramo": 0.13
+        },
+
+        {
+            "id": 11,
+            "nombre": "Guagua 11",
+            "capacidad": 55,
+            "pasajeros": 35,
+            "paradaActualId": 4,
+            "siguienteParadaId": 5,
+            "progresoTramo": 0.478
+        },
+
+        {
+            "id": 12,
+            "nombre": "Guagua 12",
+            "capacidad": 55,
+            "pasajeros": 28,
+            "paradaActualId": 4,
+            "siguienteParadaId": 5,
+            "progresoTramo": 0.826
+        },
+
+        {
+            "id": 13,
+            "nombre": "Guagua 13",
+            "capacidad": 55,
+            "pasajeros": 22,
+            "paradaActualId": 5,
+            "siguienteParadaId": 6,
+            "progresoTramo": 0.174
+        },
+
+        {
+            "id": 14,
+            "nombre": "Guagua 14",
+            "capacidad": 55,
+            "pasajeros": 18,
+            "paradaActualId": 5,
+            "siguienteParadaId": 6,
+            "progresoTramo": 0.522
+        },
+
+        {
+            "id": 15,
+            "nombre": "Guagua 15",
+            "capacidad": 55,
+            "pasajeros": 12,
+            "paradaActualId": 5,
+            "siguienteParadaId": 6,
+            "progresoTramo": 0.87
+        },
+
+        {
+            "id": 16,
+            "nombre": "Guagua 16",
+            "capacidad": 55,
+            "pasajeros": 38,
+            "paradaActualId": 6,
+            "siguienteParadaId": 7,
+            "progresoTramo": 0.217
+        },
+
+        {
+            "id": 17,
+            "nombre": "Guagua 17",
+            "capacidad": 55,
+            "pasajeros": 51,
+            "paradaActualId": 6,
+            "siguienteParadaId": 7,
+            "progresoTramo": 0.565
+        },
+
+        {
+            "id": 18,
+            "nombre": "Guagua 18",
+            "capacidad": 55,
+            "pasajeros": 37,
+            "paradaActualId": 6,
+            "siguienteParadaId": 7,
+            "progresoTramo": 0.913
+        },
+
+        {
+            "id": 19,
+            "nombre": "Guagua 19",
+            "capacidad": 55,
+            "pasajeros": 28,
+            "paradaActualId": 7,
+            "siguienteParadaId": 8,
+            "progresoTramo": 0.261
+        },
+
+        {
+            "id": 20,
+            "nombre": "Guagua 20",
+            "capacidad": 55,
+            "pasajeros": 19,
+            "paradaActualId": 7,
+            "siguienteParadaId": 8,
+            "progresoTramo": 0.609
+        },
+
+        {
+            "id": 21,
+            "nombre": "Guagua 21",
+            "capacidad": 55,
+            "pasajeros": 50,
+            "paradaActualId": 7,
+            "siguienteParadaId": 8,
+            "progresoTramo": 0.957
+        },
+
+        {
+            "id": 22,
+            "nombre": "Guagua 22",
+            "capacidad": 55,
+            "pasajeros": 9,
+            "paradaActualId": 8,
+            "siguienteParadaId": 1,
+            "progresoTramo": 0.304
+        },
+
+        {
+            "id": 23,
+            "nombre": "Guagua 23",
+            "capacidad": 55,
+            "pasajeros": 34,
+            "paradaActualId": 8,
+            "siguienteParadaId": 1,
+            "progresoTramo": 0.652
+        }
+
+    ],
+
+    "Tramos": [
+        {
+            "id": 1,
+            "nombre": "Sede-Victoria",
+            "origenId": 1,
+            "destinoId": 2,
+            "distanciaKm": 3,
+            "tiempoMinutos": 3.16
+
+        },
+
+        {
+            "id": 2,
+            "nombre": "Victoria-Teleferico Charles",
+            "origenId": 2,
+            "destinoId": 3,
+            "distanciaKm": 6.21,
+            "tiempoMinutos": 6.54
+        },
+
+        {
+            "id": 3,
+            "nombre": "Teleferico Charles-Rosa Duarte",
+            "origenId": 3,
+            "destinoId": 4,
+            "distanciaKm": 4.19,
+            "tiempoMinutos": 7.18
+        },
+
+        {
+            "id": 4,
+            "nombre": "Rosa Duarte-Mercado La Zurza",
+            "origenId": 4,
+            "destinoId": 5,
+            "distanciaKm": 5.58,
+            "tiempoMinutos": 9.57
+        },
+
+        {
+            "id": 5,
+            "nombre": "Mercado La Zurza-Entrada Guaricano",
+            "origenId": 5,
+            "destinoId": 6,
+            "distanciaKm": 2.86,
+            "tiempoMinutos": 4.90
+        },
+
+        {
+            "id": 6,
+            "nombre": "Entrada Guaricano-Colina Centro",
+            "origenId": 6,
+            "destinoId": 7,
+            "distanciaKm": 6.54,
+            "tiempoMinutos": 11.21
+        },
+
+         {
+             "id": 7,
+             "nombre": "Colina Centro-Aeropuerto el Higuero",
+             "origenId": 7,
+             "destinoId": 8,
+             "distanciaKm": 7.02,
+             "tiempoMinutos": 7.39
+         },
+
+            {
+                "id": 8,
+                "nombre": "Aeropuerto el Higuero-Sede",
+                "origenId": 8,
+                "destinoId": 1,
+                "distanciaKm": 16.8,
+                "tiempoMinutos": 17.68
+            }
     ]
 }

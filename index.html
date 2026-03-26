@@ -22,16 +22,47 @@
             <button id="btnUbicacion" class="btn-secundario" type="button">Actualizar ubicacion</button>
           </div>
         </div>
+
+        <div class="panel panel-favorita">
+          <label for="paradaFavorita">Parada favorita</label>
+          <select id="paradaFavorita">
+            <option value="">Selecciona una parada</option>
+          </select>
+          <div class="acciones">
+            <button id="btnGuardarFavorita" class="btn-principal" type="button">Guardar favorita</button>
+            <button id="btnVerFavorita" class="btn-secundario" type="button">Ver informacion</button>
+          </div>
+        </div>
       </div>
 
       <aside class="hero-lateral">
         <h2>Como funciona</h2>
         <ul>
-          <li>Se cargan tus paradas desde `paradas.json`.</li>
-          <li>Se usa la ubicacion actual del usuario.</li>
+          <li>Elige a donde vas.</li>
+          <li>Se usa tu ubicacion actual.</li>
           <li>Se calcula cual parada esta a menor distancia.</li>
-          <li>Se muestra el destino dentro de Google Maps en la pagina.</li>
+          <li>Se muestra el destino dentro de Google Maps en la pagina.</li><br><br>
+
+          <h2>Precio</h2>
+          <li>RD$20.00 por persona</li>
+          <li>Metodo de pago: Tarjeta o efectivo</li>
         </ul>
+
+        <div class="leyenda-marcadores">
+          <h3>Leyenda de marcadores</h3>
+          <div class="leyenda-item">
+            <span class="leyenda-color leyenda-rojo"></span>
+            <span>Rojo: sede central</span>
+          </div>
+          <div class="leyenda-item">
+            <span class="leyenda-color leyenda-amarillo"></span>
+            <span>Amarillo: paradas</span>
+          </div>
+          <div class="leyenda-item">
+            <span class="leyenda-color leyenda-negro"></span>
+            <span>Negro: proximas paradas</span>
+          </div>
+        </div>
       </aside>
     </section>
 
@@ -59,6 +90,20 @@
 
     <section class="mapa-card">
       <div id="mapaDestino" aria-label="Mapa del destino"></div>
+    </section>
+
+    <section class="mapa-card">
+      <div class="ruta-visual">
+        <div class="ruta-encabezado">
+          <h2>Ruta completa de la guagua</h2>
+          <p>Aqui puedes ver el recorrido general completo antes de elegir tu parada.</p>
+        </div>
+        <img
+          class="ruta-imagen"
+          src="estilos/RutaCompleta.png"
+          alt="Mapa con la ruta completa de la guagua"
+        >
+      </div>
     </section>
   </main>
 

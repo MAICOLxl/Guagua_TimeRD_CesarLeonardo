@@ -86,6 +86,20 @@ input {
   margin-bottom: 12px;
 }
 
+select {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+  margin-bottom: 12px;
+  background: white;
+}
+
+.panel-favorita {
+  margin-top: 18px;
+}
+
 .acciones {
   display: flex;
   flex-wrap: wrap;
@@ -145,6 +159,49 @@ button:hover,
   line-height: 1.5;
 }
 
+.leyenda-marcadores {
+  margin-top: 8px;
+  padding: 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.leyenda-marcadores h3 {
+  margin: 0 0 12px;
+  font-size: 1rem;
+}
+
+.leyenda-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.leyenda-item + .leyenda-item {
+  margin-top: 10px;
+}
+
+.leyenda-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  flex: 0 0 16px;
+}
+
+.leyenda-rojo {
+  background: #d14334;
+}
+
+.leyenda-amarillo {
+  background: #f2c94c;
+}
+
+.leyenda-negro {
+  background: #111827;
+}
+
 .resultado {
   min-height: 170px;
 }
@@ -157,6 +214,33 @@ button:hover,
   font-weight: 700;
   margin-bottom: 10px;
   color: var(--primary);
+}
+
+.ruta-visual {
+  padding: 24px;
+}
+
+.ruta-encabezado {
+  margin-bottom: 18px;
+}
+
+.ruta-encabezado h2 {
+  margin: 0 0 8px;
+  color: var(--primary-dark);
+}
+
+.ruta-encabezado p {
+  margin: 0;
+}
+
+.ruta-imagen {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  border: 1px solid rgba(217, 209, 196, 0.9);
+  box-shadow: 0 14px 30px rgba(11, 93, 91, 0.1);
+  background: white;
 }
 
 #mapaDestino {

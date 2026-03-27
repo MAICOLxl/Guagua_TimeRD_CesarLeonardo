@@ -6,23 +6,6 @@ El usuraio debe poder hacer:
 comparar rutas y guardar favoritas en el dispositivo,
 visualizar alertas (lluvia, hora pico, paro) que afecten las estimaciones.
 
--Todos los datos provienen de archivos locales .json que ustedes integrarán.
-
-Puntos adicionales:
-
--Modo oscuro
--Minimapa de los controles
--Modo ahorro
--!18n (investigar)
-
-Regla calculo: 
-
--Tiempo base, ruta=sumaTiempo_min de tramos
--Por cada condicion: tiempo=tiempo*(1+tiempo_pct/100. Redondear minutos)
--Costo= sumaCosto+suamCosto_extra.
--Hacer ranking: por defecto el usuraio alterna costo o viajes.
-
-
 ***programa***
 
 -La ruta de guagua tiene 53km en total. segmentos de la ruta:

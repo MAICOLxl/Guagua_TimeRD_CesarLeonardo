@@ -688,7 +688,7 @@ function mostrarResultadoParada(parada, destino, mostrarRutas = false, paradaDes
     ? ` Despues de ${parada.nombre}, la guagua sigue hacia ${siguienteParada.nombre}.`
     : "";
   const textoDistancia = mostrarRutas
-    ? `Mira, tienes la estacion ${parada.nombre}${distanciaMetros === null ? "" : ` a ${distanciaMetros} metros`}. Ve a esa parada para iniciar tu trayecto hacia ${destino}.`
+    ? `Tienes la estacion ${parada.nombre}${distanciaMetros === null ? "" : ` a ${distanciaMetros} metros`}. Ve a esa parada para iniciar tu trayecto hacia ${destino}.`
     : `Tu parada favorita es ${parada.nombre}.`;
   mensajeResultado.textContent = `${textoDistancia}${textoGuagua}${textoTrayecto}${detalleRecorrido}`;
 

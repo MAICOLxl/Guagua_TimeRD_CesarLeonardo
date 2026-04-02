@@ -5,4 +5,4 @@ Traze una ruta de 53km totales saliendo de la victoria y pasando por zona populo
 Estan las paradas express que son paradas que los pasajeros piden c/d cierto tiempo. He destinado 22 guaguas para la ruta, es importante esta cantidad porque permite un promedio de guaguas en cada parada c/d 3 minutos maximo.
 Para determinar la velocidad he determinado 4 tiempos: sin trafico, poco trafico, alto trafico y muchisimo trafico, declarando en el .json variables de velocidad segun que tramo se encuentra la guagua.Tambien he integrado un contador de pasajeros para decirle al usuario la capacidad del vehiculo.
 
-Pagina del programa:
+Pagina del programa: https://maicolxl.github.io/Guagua_TimeRD_CesarLeonardo/

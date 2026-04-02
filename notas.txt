@@ -82,8 +82,8 @@ Distancia a la parada: por ejemplo, 210 m
 La guagua está a: 1.8 km
 Tiempo estimado de llegada: 6 min
 Un mensaje tipo:
-“Estás suficientemente cerca para esperar la guagua aquí”
-o “Muévete a la parada oficial X, estás a 450 m”
+Estás cerca, espera la guagua aquí
+Muévete a la parada oficial X, estás a 450 m
 
 Coordenadas Estaciones
 
@@ -96,4 +96,6 @@ Entrada Guaricano: 18.52505, -69.91634
 ColinaCentro: 18.55516, -69.94394
 Aeropuerto El Higuero: 18.57493, -69.98056
 
-CLAVE API: AIzaSyDosDKE2DwGu4fCFxams6tHBWM8q9o2tjc
+No es conveniente usar un objeto de persona.
+
+AIzaSyDosDKE2DwGu4fCFxams6tHBWM8q9o2tjc
